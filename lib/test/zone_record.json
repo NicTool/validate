@@ -1,7 +1,7 @@
 {
   "id": 1,
   "zid": 1,
-  "name": "a",
+  "owner": "a",
   "ttl": 86400,
   "type": "A",
   "address": "1.1.1.1"

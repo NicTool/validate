@@ -1,7 +1,12 @@
 {
   "name": "@nictool/validate",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "NicTool Object Validation",
+  "files": [
+    "lib",
+    "index.js",
+    "CHANGELOG.md"
+  ],
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -15,6 +20,7 @@
     "prettier:fix": "npx prettier --ignore-path .gitignore --write .",
     "test": "node --test",
     "versions": "npx dependency-version-checker check",
+    "versions:fix": "npx dependency-version-checker update",
     "watch": "node --test --watch"
   },
   "repository": {
@@ -34,11 +40,11 @@
   },
   "homepage": "https://github.com/NicTool/validate#readme",
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "eslint": "^9.17.0",
-    "@eslint/js": "^9.17.0",
-    "eslint-config-prettier": "^9.1.0",
-    "globals": "^15.13.0"
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^9.24.0",
+    "@eslint/js": "^10.0.0",
+    "eslint-config-prettier": "^10.1.1",
+    "globals": "^16.0.0"
   },
   "dependencies": {
     "joi": "^17.13.3",
