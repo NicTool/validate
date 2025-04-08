@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.2] - 2025-04-08
+
+- feat(zone_record): added GET, POST, and DELETE formats
+- feat(zone): added GET, POST, and DELETE formats
+- feat(session): can return a token
+- feat(perm): name ca be empty
+- feat(ns): GET always returns an array of items
+- feat(ns): address6 can be empty
+- meta: add [files] to package.json, deleted .npmignore
+
 ### [0.8.1] - 2024-12-16
 
 - doc(CONTRIBUTORS): added
@@ -75,3 +85,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.7.4]: https://github.com/NicTool/validate/releases/tag/0.7.4
 [0.8.0]: https://github.com/NicTool/validate/releases/tag/0.8.0
 [0.8.1]: https://github.com/NicTool/validate/releases/tag/v0.8.1
+[0.8.2]: https://github.com/NicTool/validate/releases/tag/v0.8.2
+[1.0.0]: https://github.com/NicTool/validate/releases/tag/1.0.0
