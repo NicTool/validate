@@ -3,7 +3,9 @@
   "version": "0.8.2",
   "description": "NicTool Object Validation",
   "files": [
-    "lib", "index.js", "CHANGELOG.md"
+    "lib",
+    "index.js",
+    "CHANGELOG.md"
   ],
   "main": "index.js",
   "directories": {
