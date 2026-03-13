@@ -1,22 +1,13 @@
 import globals from 'globals'
-import path from 'node:path'
-import { fileURLToPath } from 'node:url'
 import js from '@eslint/js'
-import { FlatCompat } from '@eslint/eslintrc'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
-})
+import prettier from 'eslint-config-prettier'
 
 export default [
   {
-    ignores: ['**/package-lock.json'],
+    ignores: ['**/package-lock.json', 'node_modules/**', '.release/**'],
   },
-  ...compat.extends('eslint:recommended', 'prettier'),
+  js.configs.recommended,
+  prettier,
   {
     languageOptions: {
       globals: {

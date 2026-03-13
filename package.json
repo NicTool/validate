@@ -1,24 +1,35 @@
 {
   "name": "@nictool/validate",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "NicTool Object Validation",
   "files": [
     "lib",
     "index.js",
+    "index.mjs",
     "CHANGELOG.md"
   ],
   "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js",
+      "default": "./index.js"
+    },
+    "./package.json": "./package.json",
+    "./lib/*": "./lib/*"
+  },
   "directories": {
     "test": "test"
   },
   "scripts": {
     "format:check": "npm run prettier; npm run lint",
     "format": "npm run prettier -- --write && npm run lint --fix",
-    "lint": "npx eslint **/*.js",
-    "lint:fix": "npm run lint --fix",
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint --fix .",
     "prettier": "npx prettier --ignore-path .gitignore --check .",
     "prettier:fix": "npx prettier --ignore-path .gitignore --write .",
     "test": "node --test",
+    "test:only": "node --test --test-only",
     "versions": "npx dependency-version-checker check",
     "versions:fix": "npx dependency-version-checker update",
     "watch": "node --test --watch"
@@ -40,14 +51,19 @@
   },
   "homepage": "https://github.com/NicTool/validate#readme",
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "eslint": "^9.24.0",
-    "@eslint/js": "^10.0.0",
-    "eslint-config-prettier": "^10.1.1",
-    "globals": "^16.0.0"
+    "eslint": "^10.0.3",
+    "@eslint/js": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.4.0"
   },
   "dependencies": {
-    "joi": "^17.13.3",
-    "joi-password": "^4.2.0"
+    "joi": "^18.0.2",
+    "joi-password": "^4.3.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
   }
 }
