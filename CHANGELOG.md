@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.3] - 2026-03-13
+
+- ns: NSD -> nsd
+- user: user is now an array
+- prettier: move config into package.json
+- zone: last publish can be all zeroes
+- zone_rec: expanded valid RR types & all the fields that go with them
+- ESM: dual export with wrapper
+- deps: bump all to latest
+
 ### [0.8.2] - 2025-04-08
 
 - feat(zone_record): added GET, POST, and DELETE formats
@@ -77,13 +87,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.5.0]: https://github.com/NicTool/validate/releases/tag/0.5.0
 [0.6.0]: https://github.com/NicTool/validate/releases/tag/0.6.0
 [0.6.1]: https://github.com/NicTool/validate/releases/tag/0.6.1
-[0.6.3]: https://github.com/NicTool/validate/releases/tag/0.6.3
+[0.6.3]: https://github.com/NicTool/validate/releases/tag/v0.6.3
 [0.7.0]: https://github.com/NicTool/validate/releases/tag/0.7.0
-[0.7.1]: https://github.com/NicTool/validate/releases/tag/0.7.1
+[0.7.1]: https://github.com/NicTool/validate/releases/tag/v0.7.1
 [0.7.2]: https://github.com/NicTool/validate/releases/tag/0.7.2
 [0.7.3]: https://github.com/NicTool/validate/releases/tag/0.7.3
-[0.7.4]: https://github.com/NicTool/validate/releases/tag/0.7.4
-[0.8.0]: https://github.com/NicTool/validate/releases/tag/0.8.0
+[0.7.4]: https://github.com/NicTool/validate/releases/tag/v0.7.4
+[0.8.0]: https://github.com/NicTool/validate/releases/tag/v0.8.0
 [0.8.1]: https://github.com/NicTool/validate/releases/tag/v0.8.1
 [0.8.2]: https://github.com/NicTool/validate/releases/tag/v0.8.2
-[1.0.0]: https://github.com/NicTool/validate/releases/tag/1.0.0
+[0.8.3]: https://github.com/NicTool/validate/releases/tag/v0.8.3
