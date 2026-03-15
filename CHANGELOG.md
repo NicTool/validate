@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.5] - 2026-03-15
+
+- zone.GET_req: add search params
+- zone_rec.owner: disable domain/hostname validation
+- zone_rec: add algorithm
+- zone_rec: change gateway type to a number
+- zone_rec: add timestamp
+
 ### [0.8.4] - 2026-03-14
 
 - disable domain validation, until joi.string.domain supports /
@@ -95,7 +103,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.6.3]: https://github.com/NicTool/validate/releases/tag/v0.6.3
 [0.7.0]: https://github.com/NicTool/validate/releases/tag/0.7.0
 [0.7.1]: https://github.com/NicTool/validate/releases/tag/v0.7.1
-[0.7.2]: https://github.com/NicTool/validate/releases/tag/0.7.2
+[0.7.2]: https://github.com/NicTool/validate/releases/tag/v0.7.2
 [0.7.3]: https://github.com/NicTool/validate/releases/tag/0.7.3
 [0.7.4]: https://github.com/NicTool/validate/releases/tag/v0.7.4
 [0.8.0]: https://github.com/NicTool/validate/releases/tag/v0.8.0
@@ -103,3 +111,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.2]: https://github.com/NicTool/validate/releases/tag/v0.8.2
 [0.8.3]: https://github.com/NicTool/validate/releases/tag/v0.8.3
 [0.8.4]: https://github.com/NicTool/validate/releases/tag/v0.8.4
+[0.8.5]: https://github.com/NicTool/validate/releases/tag/v0.8.5
