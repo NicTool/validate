@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.4] - 2026-03-14
+
+- disable domain validation, until joi.string.domain supports /
+  - related: hapijs/address#48
+
 ### [0.8.3] - 2026-03-13
 
 - ns: NSD -> nsd
@@ -97,3 +102,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.1]: https://github.com/NicTool/validate/releases/tag/v0.8.1
 [0.8.2]: https://github.com/NicTool/validate/releases/tag/v0.8.2
 [0.8.3]: https://github.com/NicTool/validate/releases/tag/v0.8.3
+[0.8.4]: https://github.com/NicTool/validate/releases/tag/v0.8.4
+[1.0.0]: https://github.com/NicTool/validate/releases/tag/1.0.0
