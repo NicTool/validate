@@ -107,3 +107,4 @@ package-lock.json
 ignore/
 out
 config.yml
+./release/
