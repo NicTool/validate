@@ -1,7 +1,10 @@
-const assert = require('node:assert/strict')
-const { describe, it } = require('node:test')
+import assert from 'node:assert/strict'
+import { describe, it } from 'node:test'
+import { createRequire } from 'node:module'
 
-const schema = require('./index')
+const require = createRequire(import.meta.url)
+
+import * as schema from './index.js'
 
 describe('index', function () {
   const testGroup = require('./lib/test/group.json')

@@ -2,19 +2,15 @@
   "name": "@nictool/validate",
   "version": "0.8.5",
   "description": "NicTool Object Validation",
+  "type": "module",
   "files": [
     "lib",
     "index.js",
-    "index.mjs",
     "CHANGELOG.md"
   ],
   "main": "index.js",
   "exports": {
-    ".": {
-      "import": "./index.mjs",
-      "require": "./index.js",
-      "default": "./index.js"
-    },
+    ".": "./index.js",
     "./package.json": "./package.json",
     "./lib/*": "./lib/*"
   },
