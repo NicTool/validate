@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.8] - 2026-03-25
+
+- zone_rec: delete request has id in param
+
 ### [0.8.7] - 2026-03-25
 
 - convert to ESM (#18)
@@ -117,3 +121,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.4]: https://github.com/NicTool/validate/releases/tag/v0.8.4
 [0.8.5]: https://github.com/NicTool/validate/releases/tag/v0.8.5
 [0.8.7]: https://github.com/NicTool/validate/releases/tag/v0.8.7
+[0.8.8]: https://github.com/NicTool/validate/releases/tag/v0.8.8
