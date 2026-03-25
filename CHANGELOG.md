@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.7] - 2026-03-25
+
+- convert to ESM (#18)
+
 ### [0.8.5] - 2026-03-15
 
 - zone.GET_req: add search params
@@ -112,3 +116,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.3]: https://github.com/NicTool/validate/releases/tag/v0.8.3
 [0.8.4]: https://github.com/NicTool/validate/releases/tag/v0.8.4
 [0.8.5]: https://github.com/NicTool/validate/releases/tag/v0.8.5
+[0.8.7]: https://github.com/NicTool/validate/releases/tag/v0.8.7

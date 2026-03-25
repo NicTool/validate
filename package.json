@@ -1,6 +1,6 @@
 {
   "name": "@nictool/validate",
-  "version": "0.8.5",
+  "version": "0.8.7",
   "description": "NicTool Object Validation",
   "type": "module",
   "files": [
@@ -26,9 +26,10 @@
     "prettier:fix": "npx prettier --ignore-path .gitignore --write .",
     "test": "node --test",
     "test:only": "node --test --test-only",
-    "versions": "npx dependency-version-checker check",
-    "versions:fix": "npx dependency-version-checker update",
-    "watch": "node --test --watch"
+    "versions": "npx npm-dep-mgr check",
+    "versions:fix": "npx npm-dep-mgr update",
+    "watch": "node --test --watch",
+    "test:coverage": "npx c8 --reporter=text --reporter=text-summary npm test"
   },
   "repository": {
     "type": "git",
