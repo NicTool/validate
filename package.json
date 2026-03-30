@@ -1,6 +1,6 @@
 {
   "name": "@nictool/validate",
-  "version": "0.8.10",
+  "version": "0.9.0",
   "description": "NicTool Object Validation",
   "type": "module",
   "files": [
@@ -30,7 +30,7 @@
     "versions:fix": "npx npm-dep-mgr update",
     "watch": "node --test --watch",
     "test:coverage": "node --test --experimental-test-coverage",
-    "test:coverage:lcov": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info"
+    "test:coverage:lcov": "mkdir -p coverage && node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=coverage/lcov.info"
   },
   "repository": {
     "type": "git",
