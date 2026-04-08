@@ -8,8 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### [0.8.9] - 2026-03-29
 
-- 
-
+-
 
 ### [0.8.8] - 2026-03-25
 
