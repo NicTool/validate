@@ -1,6 +1,6 @@
 {
   "name": "@nictool/validate",
-  "version": "0.8.8",
+  "version": "0.8.9",
   "description": "NicTool Object Validation",
   "type": "module",
   "files": [
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "format:check": "npm run prettier; npm run lint",
-    "format": "npm run prettier -- --write && npm run lint --fix",
+    "format": "npm run prettier -- --write && npm run lint:fix",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix .",
     "prettier": "npx prettier --ignore-path .gitignore --check .",

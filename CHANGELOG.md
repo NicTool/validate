@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.9] - 2026-03-29
+
+- group: GET can return one group or array
+- PUT added to: group, ns, user, zone, zr
+
 ### [0.8.8] - 2026-03-25
 
 - zone_rec: delete request has id in param
@@ -108,7 +113,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.5.0]: https://github.com/NicTool/validate/releases/tag/0.5.0
 [0.6.0]: https://github.com/NicTool/validate/releases/tag/0.6.0
 [0.6.1]: https://github.com/NicTool/validate/releases/tag/0.6.1
-[0.6.3]: https://github.com/NicTool/validate/releases/tag/v0.6.3
+[0.6.3]: https://github.com/NicTool/validate/releases/tag/0.6.3
 [0.7.0]: https://github.com/NicTool/validate/releases/tag/0.7.0
 [0.7.1]: https://github.com/NicTool/validate/releases/tag/v0.7.1
 [0.7.2]: https://github.com/NicTool/validate/releases/tag/v0.7.2
@@ -122,3 +127,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.5]: https://github.com/NicTool/validate/releases/tag/v0.8.5
 [0.8.7]: https://github.com/NicTool/validate/releases/tag/v0.8.7
 [0.8.8]: https://github.com/NicTool/validate/releases/tag/v0.8.8
+[0.8.9]: https://github.com/NicTool/validate/releases/tag/v0.8.9
