@@ -19,7 +19,7 @@
   },
   "scripts": {
     "format:check": "npm run prettier; npm run lint",
-    "format": "npm run prettier -- --write && npm run lint --fix",
+    "format": "npm run prettier -- --write && npm run lint:fix",
     "lint": "npx eslint .",
     "lint:fix": "npx eslint --fix .",
     "prettier": "npx prettier --ignore-path .gitignore --check .",

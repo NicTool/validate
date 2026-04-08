@@ -8,7 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### [0.8.9] - 2026-03-29
 
--
+- group: GET can return one group or array
+- PUT added to: group, ns, user, zone, zr
 
 ### [0.8.8] - 2026-03-25
 
