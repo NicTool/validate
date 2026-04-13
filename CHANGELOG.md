@@ -8,9 +8,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### [0.8.10] - 2026-04-13
 
-#### Changed
-
-- v0.8.9
 
 
 ### [0.8.9] - 2026-03-29
