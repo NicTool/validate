@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.8.10] - 2026-04-13
+
+
+
 ### [0.8.9] - 2026-03-29
 
 - group: GET can return one group or array
@@ -128,3 +132,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.7]: https://github.com/NicTool/validate/releases/tag/v0.8.7
 [0.8.8]: https://github.com/NicTool/validate/releases/tag/v0.8.8
 [0.8.9]: https://github.com/NicTool/validate/releases/tag/v0.8.9
+[0.8.10]: https://github.com/NicTool/validate/releases/tag/v0.8.10
