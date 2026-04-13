@@ -6,15 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
-<<<<<<< feat/authz-enforcement
-### [0.8.10] - 2026-04-12
-
-- delegation: add validation schemas for GET, POST, PUT, DELETE (#22)
-=======
 ### [0.8.10] - 2026-04-13
 
-
->>>>>>> main
+- delegation: add validation schemas for GET, POST, PUT, DELETE (#22)
+- deps: bump versions
 
 ### [0.8.9] - 2026-03-29
 
