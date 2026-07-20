@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 ### [0.8.10] - 2026-04-13
 
 - delegation: add validation schemas for GET, POST, PUT, DELETE (#22)
+- feat: add nameserver type native
 - deps: bump versions
 
 ### [0.8.9] - 2026-03-29
@@ -118,7 +119,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.5.0]: https://github.com/NicTool/validate/releases/tag/0.5.0
 [0.6.0]: https://github.com/NicTool/validate/releases/tag/0.6.0
 [0.6.1]: https://github.com/NicTool/validate/releases/tag/0.6.1
-[0.6.3]: https://github.com/NicTool/validate/releases/tag/0.6.3
+[0.6.3]: https://github.com/NicTool/validate/releases/tag/v0.6.3
 [0.7.0]: https://github.com/NicTool/validate/releases/tag/0.7.0
 [0.7.1]: https://github.com/NicTool/validate/releases/tag/v0.7.1
 [0.7.2]: https://github.com/NicTool/validate/releases/tag/v0.7.2
