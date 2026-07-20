@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 - delegation: add validation schemas for GET, POST, PUT, DELETE (#22)
 - feat: add nameserver type native
+- zone_rec: add pagination options
 - deps: bump versions
 
 ### [0.8.9] - 2026-03-29

@@ -6,9 +6,10 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: read
+
 jobs:
   coverage:
     uses: NicTool/.github/.github/workflows/coverage.yml@main
     secrets: inherit
-    permissions:
-      contents: read
