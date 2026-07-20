@@ -2,16 +2,17 @@
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
-# CHANGES
-
 ### Unreleased
+
+### [0.9.0] - 2026-07-20
+
+- feat: add nameserver type native
+- zone_rec: add pagination options
+- deps: bump versions
 
 ### [0.8.10] - 2026-04-13
 
 - delegation: add validation schemas for GET, POST, PUT, DELETE (#22)
-- feat: add nameserver type native
-- zone_rec: add pagination options
-- deps: bump versions
 
 ### [0.8.9] - 2026-03-29
 
@@ -136,3 +137,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.8]: https://github.com/NicTool/validate/releases/tag/v0.8.8
 [0.8.9]: https://github.com/NicTool/validate/releases/tag/v0.8.9
 [0.8.10]: https://github.com/NicTool/validate/releases/tag/v0.8.10
+[0.9.0]: https://github.com/NicTool/validate/releases/tag/v0.9.0
