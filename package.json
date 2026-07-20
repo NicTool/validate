@@ -29,7 +29,8 @@
     "versions": "npx npm-dep-mgr check",
     "versions:fix": "npx npm-dep-mgr update",
     "watch": "node --test --watch",
-    "test:coverage": "npx c8 --reporter=text --reporter=text-summary npm test"
+    "test:coverage": "node --test --experimental-test-coverage",
+    "test:coverage:lcov": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info"
   },
   "repository": {
     "type": "git",
@@ -48,13 +49,13 @@
   },
   "homepage": "https://github.com/NicTool/validate#readme",
   "devDependencies": {
-    "eslint": "^10.2.0",
+    "eslint": "^10.7.0",
     "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.5.0"
+    "globals": "^17.7.0"
   },
   "dependencies": {
-    "joi": "^18.1.2",
+    "joi": "^18.2.3",
     "joi-password": "^4.3.0"
   },
   "prettier": {
