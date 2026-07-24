@@ -1,6 +1,6 @@
 {
   "name": "@nictool/validate",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "NicTool Object Validation",
   "type": "module",
   "files": [

@@ -4,6 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.9.1] - 2026-07-24
+
+- group.get: always return array
+- zone: add include_subgroups
+
 ### [0.9.0] - 2026-07-20
 
 - feat: add nameserver type native
@@ -138,3 +143,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.9]: https://github.com/NicTool/validate/releases/tag/v0.8.9
 [0.8.10]: https://github.com/NicTool/validate/releases/tag/v0.8.10
 [0.9.0]: https://github.com/NicTool/validate/releases/tag/v0.9.0
+[0.9.1]: https://github.com/NicTool/validate/releases/tag/v0.9.1
