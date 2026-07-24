@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### [0.9.1] - 2026-07-24
 
+- group.get: always return array
+- zone: add include_subgroups
+
 ### [0.9.0] - 2026-07-20
 
 - feat: add nameserver type native

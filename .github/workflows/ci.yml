@@ -7,13 +7,14 @@ on:
 env:
   CI: true
 
-permissions:
-  contents: read
-
 jobs:
   lint:
     uses: NicTool/.github/.github/workflows/lint.yml@main
+    permissions:
+      contents: read
 
   test:
     uses: NicTool/.github/.github/workflows/test.yml@main
     secrets: inherit
+    permissions:
+      contents: read
