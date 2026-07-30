@@ -7,8 +7,8 @@
   "remote_login": "nsd",
   "logdir": "/foo",
   "datadir": "/bar",
+  "type": "nsd",
   "export": {
-    "type": "nsd",
     "interval": 0,
     "serials": true,
     "status": "last run:03-05 15:25<br>last cp :09-20 12:59"
