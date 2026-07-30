@@ -49,7 +49,7 @@
   },
   "homepage": "https://github.com/NicTool/validate#readme",
   "devDependencies": {
-    "eslint": "^10.7.0",
+    "eslint": "^10.8.0",
     "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
     "globals": "^17.7.0"

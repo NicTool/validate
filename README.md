@@ -101,7 +101,7 @@ Validation class for objects in NicTool. Analgous to Nictool/../\*/Sanity in v2.
       ✔ rejects invalid: a.b d.com.
       ✔ rejects invalid: a.b
 d.com.
-    export_type
+    type
       ✔ rejects missing
       ✔ accepts valid: bind
       ✔ accepts valid: djbdns
