@@ -4,6 +4,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [0.9.2] - 2026-07-30
+
+- engine = type, remove it (#27)
+
 ### [0.9.1] - 2026-07-24
 
 - group.get: always return array
@@ -144,3 +148,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.8.10]: https://github.com/NicTool/validate/releases/tag/v0.8.10
 [0.9.0]: https://github.com/NicTool/validate/releases/tag/v0.9.0
 [0.9.1]: https://github.com/NicTool/validate/releases/tag/v0.9.1
+[0.9.2]: https://github.com/NicTool/validate/releases/tag/v0.9.2

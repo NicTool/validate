@@ -1,6 +1,6 @@
 {
   "name": "@nictool/validate",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "NicTool Object Validation",
   "type": "module",
   "files": [
@@ -52,7 +52,7 @@
     "eslint": "^10.8.0",
     "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
-    "globals": "^17.7.0"
+    "globals": "^17.8.0"
   },
   "dependencies": {
     "joi": "^18.2.3",
