@@ -4,6 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+- log: added GET_req & GET_res
+- nameserver: address accepts ipv6, PUT accepts gid
+- session: username may be qualified (user@group)
+- user: GET_req gains search/sort/pagination, PUT accepts gid
+- zone: PUT accepts gid
+
 ### [0.9.2] - 2026-07-30
 
 - engine = type, remove it (#27)
