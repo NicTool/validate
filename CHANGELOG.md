@@ -4,11 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
-- log: added GET_req & GET_res
-- nameserver: address accepts ipv6, PUT accepts gid
-- session: username may be qualified (user@group)
-- user: GET_req gains search/sort/pagination, PUT accepts gid
-- zone: PUT accepts gid
+- group/user: validate flat permission controls
+- log: add route-specific request schemas and require zid for record logs
+- nameserver: address accepts ipv6, PUT accepts a positive gid
+- session: validate both parts of user@group and return permissions
+- user: GET_req gains search/sort/pagination and group_name sorting, PUT accepts gid
+- zone: PUT accepts gid and serial
 
 ### [0.9.2] - 2026-07-30
 
