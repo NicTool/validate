@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 - session: validate both parts of user@group and return permissions
 - user: GET_req gains search/sort/pagination and group_name sorting, PUT accepts gid
 - zone: PUT accepts gid and serial
+- zone_record: GET_req sorts by the legacy rdata columns
 
 ### [0.9.2] - 2026-07-30
 
