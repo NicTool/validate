@@ -4,12 +4,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
-### [1.0.1] - 2026-08-26
-
-- gui: support the REST transport (#29)
-
 ### [1.0.0] - 2026-08-26
 
+- gui: support the REST transport (#29)
 - group/user: validate flat permission controls
 - log: add route-specific request schemas and require zid for record logs
 - nameserver: address accepts ipv6, PUT accepts a positive gid
