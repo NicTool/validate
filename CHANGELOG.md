@@ -4,6 +4,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+### [1.0.0] - 2026-08-26
+
+- gui: support the REST transport (#29)
 - group/user: validate flat permission controls
 - log: add route-specific request schemas and require zid for record logs
 - nameserver: address accepts ipv6, PUT accepts a positive gid
@@ -157,3 +160,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.9.0]: https://github.com/NicTool/validate/releases/tag/v0.9.0
 [0.9.1]: https://github.com/NicTool/validate/releases/tag/v0.9.1
 [0.9.2]: https://github.com/NicTool/validate/releases/tag/v0.9.2
+[1.0.0]: https://github.com/NicTool/validate/releases/tag/v1.0.0
