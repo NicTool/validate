@@ -160,4 +160,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.9.0]: https://github.com/NicTool/validate/releases/tag/v0.9.0
 [0.9.1]: https://github.com/NicTool/validate/releases/tag/v0.9.1
 [0.9.2]: https://github.com/NicTool/validate/releases/tag/v0.9.2
-[1.0.1]: https://github.com/NicTool/validate/releases/tag/v1.0.1
+[1.0.0]: https://github.com/NicTool/validate/releases/tag/v1.0.0
