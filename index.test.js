@@ -25,6 +25,11 @@ describe('index', function () {
     assert.deepEqual(testCase, value)
   })
 
+  it('exports log', () => {
+    const { error } = schema.log.GET_req.validate({ gid: 2, limit: 50 })
+    assert.ifError(error)
+  })
+
   it('exports nameserver', () => {
     const testCase = JSON.parse(JSON.stringify(testNs))
     const { error } = schema.nameserver.v3.validate(testCase)
