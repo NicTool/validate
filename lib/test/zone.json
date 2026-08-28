@@ -4,7 +4,7 @@
   "zone": "example.com",
   "ttl": 1,
   "serial": 20240404,
-  "nameservers": ["a.ns.example.com", "b.ns.example.com"],
+  "nameservers": [1, 2],
   "mailaddr": "hostmaster.example.com.",
   "description": "test",
   "refresh": 1,
