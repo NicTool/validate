@@ -4,6 +4,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
+- id: reject caller-supplied ids on create and update
+
 ### [1.0.0] - 2026-08-26
 
 - gui: support the REST transport (#29)
