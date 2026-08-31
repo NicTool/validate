@@ -4,7 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ### Unreleased
 
-- id: reject caller-supplied ids on create and update
+### [1.0.1] - 2026-08-31
+
+- zone: run 3 disabled validation cases (#33)
+- id: reject caller-supplied ids on create and update #34
+- user: accept an email at any syntax-valid domain (#32)
+- zone: nameservers are nameserver ids (#31)
 
 ### [1.0.0] - 2026-08-26
 
@@ -163,3 +168,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 [0.9.1]: https://github.com/NicTool/validate/releases/tag/v0.9.1
 [0.9.2]: https://github.com/NicTool/validate/releases/tag/v0.9.2
 [1.0.0]: https://github.com/NicTool/validate/releases/tag/v1.0.0
+[1.0.1]: https://github.com/NicTool/validate/releases/tag/v1.0.1
